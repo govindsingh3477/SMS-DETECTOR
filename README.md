@@ -15,7 +15,7 @@ Install the required dependencies:
 
 ## Usage
 Run the web application:
-(```streamlit app.py```)
+(``` streamlit run .\app.py```)
 
 Access the website at http://localhost:8501 in your web browser.
 Paste an email or upload a text file to check if it’s spam or not.
