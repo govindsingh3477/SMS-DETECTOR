@@ -19,8 +19,8 @@ Run the web application:
 
 Access the website at http://localhost:8501 in your web browser.
 Paste an email or upload a text file to check if it’s spam or not.
-Dataset
-We used the Email Spam Classification Dataset from Kaggle. The dataset contains labeled emails (spam/not spam) for training and evaluation.
+## Dataset
+We used the SMS Spam Collection Dataset from Kaggle(https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset). The dataset contains labeled emails (spam/not spam) for training and evaluation.
 
 ## Model Details
 Algorithm: Naive Bayes
