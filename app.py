@@ -32,7 +32,7 @@ def transform_text(text):
 
 st.title("Email/SMS SPAM CLASSIFIER")
 
-input_sms = st.text_area("Enter your message")
+input_sms = st.text_area("Paste your message")
 if st.button('Predict'):
     transformed_sms=transform_text(input_sms)
     vector_input=tfidf.transform([transformed_sms])
